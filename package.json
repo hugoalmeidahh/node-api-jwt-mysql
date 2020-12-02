@@ -1,0 +1,19 @@
+{
+  "name": "node-api-jwt-mysql",
+  "version": "1.0.0",
+  "description": "demo a node with webapi, security token jwt with mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.11.2",
+    "body-parser": "^1.11.0",
+    "bcrypt-nodejs": "0.0.3",
+    "mysql2": "^2.2.5",
+    "jwt-simple": "^0.2.0",
+    "moment": "^2.9.0"
+  },
+  "author": "Hugo Almeida",
+  "license": "ISC"
+}
