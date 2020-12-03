@@ -7,13 +7,27 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.11.2",
-    "body-parser": "^1.11.0",
     "bcrypt-nodejs": "0.0.3",
-    "mysql2": "^2.2.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "jwt-simple": "^0.2.0",
-    "moment": "^2.9.0"
+    "moment": "^2.9.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   },
-  "author": "Hugo Almeida",
-  "license": "ISC"
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "authentication",
+    "mysql"
+  ],
+  "author": "Hugo Almeida <hugoalmeidahh@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
 }
